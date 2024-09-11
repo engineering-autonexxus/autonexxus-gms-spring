@@ -1,5 +1,7 @@
 package com.autonexxus.gms.model;
 
+import java.util.Date;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -17,5 +19,6 @@ public class BusinessContact {
     public String city;
     public String email;
     public Long mobileNumber;
+    public Date timestamp;
 
 }
