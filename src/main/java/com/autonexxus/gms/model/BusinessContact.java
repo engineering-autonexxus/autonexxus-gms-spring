@@ -14,7 +14,7 @@ public class BusinessContact {
     public String fullName;
     public String businessName;
     public Integer noOfGarages;
-    public Integer city;
+    public String city;
     public String email;
     public Long mobileNumber;
 
